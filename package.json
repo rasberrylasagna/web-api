@@ -6,6 +6,8 @@
         "typescript": "^3.9.3"
     },
     "scripts": {
-        "tsc": "tsc"
+        "tsc": "tsc",
+        "start": "node server/server.js",
+        "server": "yarn run tsc && yarn run start"
     }
 }

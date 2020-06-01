@@ -9,6 +9,6 @@ var router = express_1.default.Router();
 exports.router = router;
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    console.log(process.env);
+    console.log('test');
     res.send('respond with a resource');
 });
